@@ -1,0 +1,106 @@
+.multi-step-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#multi-step-customer-form {
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+   
+    flex: 1;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 750px;
+}
+
+.form-label {
+    width: 46%;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+
+.card {
+    display: none;
+    flex-direction: row;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #e8e2d3;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.nxt-span {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.nxt-btn {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 20px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    background: #b4ede9;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #040404;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nxt-btn a {
+    margin-left: 5px;
+}
+
+.btn-prev-next {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.prev-btn {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    background: #e0b38f;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #040404;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.form-debito-em-conta {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.form-debito-em-conta .form-label {
+    display: flex;
+}
+
+.card.active{
+    display: flex;
+}

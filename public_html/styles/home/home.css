@@ -1,0 +1,103 @@
+.header-wrapper {
+    background: #ede7cc;
+}
+
+/* Area Reservada para Css da pagina de login  - 
+   Sessão = Header   
+   
+   /* Feature Component */
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 20px;
+}
+
+.feature-frame {
+    background: #ede7cc;
+    border-radius: 10px;
+    border: 2px solid #BAB5A0;
+    margin-bottom: 20px;
+    width: 750px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.feature-title {
+    color: #A4499C;
+    width: 650px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.feature-img {
+    width: 100%;
+    height: 200px;
+}
+
+.feature-subtitle {
+    color: #040404;
+    padding: 5px;
+    width: 650px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+  /* Fim Feature Component */
+
+  /* OptForm Component */
+
+    .opt-form-container {
+        display: flex;
+        max-width: fit-content;
+        max-width: 700px;
+        width: 100%;
+        justify-content: center;
+        height: 10%;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+
+    .opt-form-input {
+        max-width: 450px;
+        width: 100%;
+        border: none;
+        padding: 10px;
+        height: 70px;
+        box-sizing: border-box;
+    }
+
+    .opt-form-button {
+        display: flex;
+        align-items: center;
+        height: 70px;
+        background: #b4ede9;
+        color: black;
+        border: none;
+        text-transform: uppercase;
+        padding: 0 32px;
+        font-size: 1.5rem;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .opt-form-text {
+        font-size: 1.1rem;
+    }
+
+  /* Fim OptForm Component */
+
+/* Area Reservada para Css da pagina de login  - 
+   Fim Sessão = Header                           */
+
+
+   

@@ -1,0 +1,196 @@
+.footer-container {
+    margin-top: 0;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    background-color: #ddd4ae;
+    padding: clamp(35px, 7%, 70px);
+    justify-content: space-between;
+}
+
+.login .logo {
+    width: 150px;
+    margin-bottom: 80px;
+}
+
+.logo-name {
+    display: flex;
+    position: absolute;
+    top: 160px;
+    margin-left: 15px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.login-title{
+    color: #a4499c;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    background: #B8AD7F;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: #050505;
+}
+
+.form-label span {
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 20px;
+    cursor: text;
+    transition: 0.5s all ease;
+}
+
+.input:focus {
+    background: #cec294;
+    border: 1px solid #aa58a3;
+    transition: 0.5s all ease;
+}
+
+.form-label .span-active {
+    font-size: 0.7rem;
+    margin: 8px 10px;
+}
+
+.form-icons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-icons img {
+    width: 20px;
+}
+
+.icons-buttons {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.form-icons .icons-buttons:nth-child(1) {
+    background: #f5f5f5;
+}
+
+.form-icons .icons-buttons:nth-child(2) {
+    background: #040404;
+}
+
+.form-icons .icons-buttons:nth-child(3) {
+    background: #385999;
+}
+
+.form-label-checkbox {
+    width: 100%;
+    margin: 15px 0px 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.input-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #f5f5f5;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.input-checkbox:checked {
+    background: #aa58a3;
+}
+
+.input-checkbox:checked::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 3px solid #f5f5f5;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+}
+
+.form-button {
+    width: 80px;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a4499c;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+    color: #040404;
+}
+
+.form-button:disabled {
+    cursor: auto;
+    background-color: #f5f5f5;
+    border: 2px solid #cecccc;
+    color: #5f5f5f;
+}
+
+.login-link {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #040404;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+}
+
+.wallpaper {
+    width: 100%;
+    background: url(../../imgs/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+ 
+}

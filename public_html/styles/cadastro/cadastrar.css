@@ -1,0 +1,7 @@
+.wallpaper {
+    width: 100%;
+    background: url(../../imgs/wallPaperCadastro.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}

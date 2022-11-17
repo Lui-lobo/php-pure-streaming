@@ -1,0 +1,65 @@
+.header-wrapper {
+    background-image: url(../imgs/BannerBidasFlix.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #f5f5f5;
+    background-repeat: no-repeat;
+}
+
+.header-background {
+    background: rgba(221, 212, 174, 1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 56px;
+    height: 58px;
+    padding: 18px 0px;
+    align-items: center;
+}
+
+.header-container a {
+    display: flex;
+    text-decoration: none;
+    color: #040404;
+}
+
+.header-container .logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header-container a img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.header-container h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+.header-container .sign-in-button {
+    display: block;
+    background: black;
+    width: 89px;
+    height: fit-content;
+    color: #fff;
+    border: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 17px;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+}

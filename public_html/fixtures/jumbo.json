@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "O Serviço de Streaming Adequado para você",
+      "subTitle": "Disponivel para Computador e dispositivos Móveis",
+      "image": "imgs/webDevices.svg",
+      "alt": "O serviço de Streaming Adequado para você",
+      "direction": "row"
+    },
+    {
+      "id": 2,
+      "title": "Desenvolvido Pensando na sua experiencia",
+      "subTitle": "Customize o site e vivencie o melhor que a web pode oferecer",
+      "image": "imgs/devSite.svg",
+      "alt": "Customize o site como quiser",
+      "direction": "row-reverse"
+    },
+    {
+      "id": 3,
+      "title": "Assista a onde e quando quiser",
+      "subTitle": "Vamos te acompanhar indepedente do quão longa seja a viagem",
+      "image": "imgs/ondequiser.svg",
+      "alt": "Assita a onde e quando quiser",
+      "direction": "row"
+    },
+    {
+      "id": 4,
+      "title": "Este Site foi Criado em React.js",
+      "subTitle": "Um Estudo Mais Aprofundado das funcionalidades e possibilidades desta ferramenta",
+      "image": "imgs/madereact.svg",
+      "alt": "Assita a onde e quando quiser",
+      "direction": "row-reverse"
+    }
+  ]
